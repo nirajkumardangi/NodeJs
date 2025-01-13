@@ -1,6 +1,7 @@
 const PI = 3.14;
 
 function sum(...numbers) {
+  console.log(module);
   return numbers.reduce((curr, acc) => curr + acc);
 }
 
